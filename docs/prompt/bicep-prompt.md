@@ -1,0 +1,7 @@
+- Describe the architecture of the attached diagram with Azure Resources. Include details such as resource groups, virtual networks, subnets, virtual machines, storage accounts, and any other relevant Azure services.
+- Create the Bicep files to deploy this architecture. Ensure the following:
+  - Use modular Bicep files, with each module representing a specific Azure resource or group of related resources.
+  - Follow Azure naming convention standards for all resource names.
+  - Leverage Azure Verified Modules (AVM) where applicable to ensure best practices and consistency.
+  - Include a main Bicep file to orchestrate the deployment of all modules.
+  - Provide parameterization for environment-specific values such as resource group names, location, and resource tags.
